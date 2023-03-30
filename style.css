@@ -1,0 +1,108 @@
+/* OBS: Quando for uma tag não é necessário usar o . no começo */
+/* Inicio do Cabeçalho */
+*{
+    font-family: Arial;
+}
+
+body{
+    margin: 0;
+}
+
+.header{
+    background-color: black;
+    width: 100%;
+    height: 70px;
+    border-bottom: 5px #32b0cd solid;
+}
+
+.header .conteiner h1{
+    color: #32b0cd;
+}
+
+ul{
+    width: 30%;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.conteiner{
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+/* ".header .conteiner" é um caminho que irá ser seguido dentro do html para a estilização */
+
+.header .conteiner{
+    justify-content: space-between;
+    align-items: center;
+}
+
+a{
+    color: #e3b062;
+    text-decoration: none;
+}
+/* Fim do cabeçalho */
+/* Começo do banner */
+.banner{
+    width: 100%;
+    height: 500px;
+    background-image: url(img/bg-jelly-fish-para_outras_pags.png);
+    background-size: cover;
+    color: white;
+}
+
+.banner .conteiner{
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.banner .conteiner p{
+    width: 200px;
+}
+p span{
+    font-weight: 800;
+}
+
+/* Fim do Banner */
+/* Começo do Social */
+
+.social{
+    width: 100%;
+    background-color: #cdcdcd;
+}
+.social .conteiner{
+    justify-content: space-around;
+}
+
+.social .conteiner img{
+    width: 250px;
+    height: 250px;
+}
+
+.conteiner .card{
+    border-radius: 10px;
+    width: 275px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card{display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+/* Fim Social */
+/* Começo footer */
+.footer{
+    width: 100%;
+    background-color: #32a7b1;
+    color: white;
+}
+
+.footer .conteiner p{
+    color: green;
+}
